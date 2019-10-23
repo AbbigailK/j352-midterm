@@ -61,6 +61,8 @@ body {
   float: right;
   display: inline-block;
   width: 25%;
+  margin-top: 20px;
+  margin-right: 0px;
 }
 
 .photo1 img {
@@ -76,12 +78,19 @@ body {
   margin-right: 50px;
 }
 
-.wrap p{
-  margin-top: 20px;
+blockquote {
+  font: 16px/24px normal helvetica, sans-serif;
+  font-style: italic;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: grey;
+  font-weight: bold;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 4px solid #ccc;
 }
-
 .glass {
-  margin-top: 75px;
+  margin-top: 45px;
 }
 .photo2 {
   float: right;
