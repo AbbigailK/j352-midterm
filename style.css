@@ -5,16 +5,16 @@
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 25px;
   font-family: 'Oswald', sans-serif;
   color: black;
-  text-align: center;
+  text-align: left;
 }
 h2 {
-  font-size: 12px;
+  font-size: 13px;
   font-family: 'Oswald', sans-serif;
   color: #737373;
-  text-align: center;
+  text-align: left;
 }
 
 h3 {
@@ -31,8 +31,15 @@ body {
 }
 
 .photo1 img {
-    width: 45%;
-    float: right;
-    margin-left: 150px;
-    margin-bottom: 150px;
+    width: 75%;
+    margin-left: 0px;
+}
+
+.photo1 p {
+  text-align: left;
+  color: grey;
+  font-weight: lighter;
+  font-size: 8px;
+  margin-top: 0px;
+  align-items: baseline;
 }
