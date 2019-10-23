@@ -6,15 +6,15 @@
 
 h1 {
   font-size: 25px;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Pattaya', sans-serif;
   color: black;
-  text-align: left;
+  text-align: center;
 }
 h2 {
   font-size: 13px;
   font-family: 'Oswald', sans-serif;
   color: #737373;
-  text-align: left;
+  text-align: center;
 }
 
 h3 {
@@ -30,16 +30,88 @@ body {
   color: grey;
 }
 
-.photo1 img {
-    width: 75%;
-    margin-left: 0px;
+.photo5 img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.photo1 p {
-  text-align: left;
-  color: grey;
+.photo6 {
+  float: left;
+  display: inline-block;
+  width: 20%;
+  margin-right: 10px;
+}
+
+.photo6 img {
+    width: 100%;
+}
+
+.photo6 p {
+  color: black;
   font-weight: lighter;
   font-size: 8px;
   margin-top: 0px;
   align-items: baseline;
+  margin-right: 50px;
+}
+
+.photo1 {
+  float: right;
+  display: inline-block;
+  width: 25%;
+}
+
+.photo1 img {
+    width: 100%;
+}
+
+.photo1 p {
+  color: black;
+  font-weight: lighter;
+  font-size: 8px;
+  margin-top: 0px;
+  align-items: baseline;
+  margin-right: 50px;
+}
+
+.wrap p{
+  margin-top: 20px;
+}
+
+.glass {
+  margin-top: 75px;
+}
+.photo2 {
+  float: right;
+  display: inline-block;
+  width: 25%;
+}
+
+.photo2 img {
+  width: 50%;
+}
+
+
+.col-md-8 {
+  margin-bottom: auto;
+  margin-top: auto;
+  float: right;
+}
+
+.photo3 img, .photo4 img{
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.photo3 p, .photo4 p{
+  color: black;
+  font-weight: lighter;
+  font-size: 9px;
+  margin-top: 2px;
+  margin-left: 55px;
+  margin-right: 55px;
 }
